@@ -22,12 +22,13 @@ const [simpleState, setSimpleState] = useState(true);
 const [complexState, setComplexState] = useState({ user: "John", age: 20 });
 ```
 
-> Note: We replace state word with store word when we use useReducer
+> Note: The store could hold one reducer or multiple reducers + actions
 
-> Note: The store could hold one reducer or multiple reducers
+```js
 
 - Add context api (solution for prop drilling)
 
 ---
 
 ### For super complex states we can use redux
+```
