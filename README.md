@@ -17,6 +17,7 @@
 > Note: When we use useReducer to manage complex state, we create sort of store
 
 ```js
+// complex state vs simple state
 const [simpleState, setSimpleState] = useState(true);
 
 const [complexState, setComplexState] = useState({ user: "John", age: 20 });
@@ -24,11 +25,8 @@ const [complexState, setComplexState] = useState({ user: "John", age: 20 });
 
 > Note: The store could hold one reducer or multiple reducers + actions
 
-```js
-
 - Add context api (solution for prop drilling)
 
 ---
 
 ### For super complex states we can use redux
-```
