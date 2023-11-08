@@ -1,0 +1,23 @@
+.App {
+  background-color: #282c34;
+  color: #abb2bf;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.TodosContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.Todo {
+  background-color: #747d9180;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+}
